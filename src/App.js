@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import FormContainer from './containers/Form';
-import './App.css';
-import QuickCard from "./components/QuickCard";
+import FormContainer        from './containers/Form';
+import QuickCard            from './components/QuickCard';
 
 class App extends Component {
   /*
