@@ -33,88 +33,71 @@ class FormContainer extends Component {
         let attrVal = e.target.type == 'checkbox' ? e.target.checked : e.target.value;
         this.setState({[attributeID]: attrVal}, () => {this.isFormSubmitted()});
     }
-
 /*
 *
 */
-    buildDropDown() {
-        let options = ['90x90', '140x140'];
+    render() {
         return (
-        <Row>
-            <Col md={3}>
-                <FormGroup>
-                    <FormLabel>Tile Dimensions: </FormLabel>
-                    <FormControl
-                        type        = {'number'}
-                        id          = {'width'}
-                        placeholder = {'Width'}
-                        value       = {this.state.width}
-                        onChange    = {this.handleChange.bind(this, 'width')} />
-                    <FormControl
-                        type        = {'number'}
-                        id          = {'height'}
-                        placeholder = {'Height'}
-                        value       = {this.state.height}
-                        onChange    = {this.handleChange.bind(this, 'height')} />
-                </FormGroup>
-            </Col>
-            <Col md={2}>
-                <FormGroup>
-                    <FormLabel>Tile Size: </FormLabel>
-                    <FormCheck
-                        defaultChecked
-                        type     = {'radio'}
-                        label    = {'140x140'}
-                        id       = {'tileSize-140'}
-                        name     = {'tileSize'}
-                        value    = {1}
-                        onChange = {this.handleChange.bind(this, 'tileSize')}
-                    />
-                    <FormCheck
-                        type     = {'radio'}
-                        label    = {'90x90'}
-                        id       = {'tileSize-90'}
-                        name     = {'tileSize'}
-                        value    = {2}
-                        onChange = {this.handleChange.bind(this, 'tileSize')}
-                    />
-                </FormGroup>
-            </Col>
-            <Col md={2}>
-                <FormGroup>
-                    <FormLabel>Debug: </FormLabel>
+            <Row>
+                <Col md={3}>
+                    <FormGroup>
+                        <FormLabel>Tile Dimensions: </FormLabel>
+                        <FormControl
+                            type        = {'number'}
+                            id          = {'width'}
+                            placeholder = {'Width'}
+                            value       = {this.state.width}
+                            onChange    = {this.handleChange.bind(this, 'width')} />
+                        <FormControl
+                            type        = {'number'}
+                            id          = {'height'}
+                            placeholder = {'Height'}
+                            value       = {this.state.height}
+                            onChange    = {this.handleChange.bind(this, 'height')} />
+                    </FormGroup>
+                </Col>
+                <Col md={2}>
+                    <FormGroup>
+                        <FormLabel>Tile Size: </FormLabel>
+                        <FormCheck
+                            defaultChecked
+                            type     = {'radio'}
+                            label    = {'140x140'}
+                            id       = {'tileSize-140'}
+                            name     = {'tileSize'}
+                            value    = {1}
+                            onChange = {this.handleChange.bind(this, 'tileSize')}
+                        />
+                        <FormCheck
+                            type     = {'radio'}
+                            label    = {'90x90'}
+                            id       = {'tileSize-90'}
+                            name     = {'tileSize'}
+                            value    = {2}
+                            onChange = {this.handleChange.bind(this, 'tileSize')}
+                        />
+                    </FormGroup>
+                </Col>
+                <Col md={2}>
+                    <FormGroup>
+                        <FormLabel>Debug: </FormLabel>
                         <FormCheck
                             type     = {'checkbox'}
                             id       = {'debug'}
                             name     = {'debug'}
                             onChange = {this.handleChange.bind(this, 'debug')}
                         />
-                </FormGroup>
-            </Col>
-            <Col md={1}>
-                <Button
-                    type={'button'}
-                    value={true}
-                    onClick = {this.handleChange.bind(this, 'formSubmitted')}>
-                    Generate
-                </Button>
-            </Col>
-
-        </Row>
-
-
-
-        );
-    }
-/*
-*
-*/
-    render() {
-        let dropdown = this.buildDropDown();
-        return (
-            <>
-                {dropdown}
-            </>
+                    </FormGroup>
+                </Col>
+                <Col md={1}>
+                    <Button
+                        type={'button'}
+                        value={true}
+                        onClick = {this.handleChange.bind(this, 'formSubmitted')}>
+                        Generate
+                    </Button>
+                </Col>
+            </Row>
         );
     }
 }
