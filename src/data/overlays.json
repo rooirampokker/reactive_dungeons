@@ -1,0 +1,47 @@
+[{
+  "overlay,trap,snakes" : {
+    "fileName": "overlay,trap,snakes",
+    "north": false,
+    "east": false,
+    "south": false,
+    "west": false,
+    "class": "snakePit",
+    "others": "overlay,trap,snakes"
+  },
+  "overlay,trap,snakes2" : {
+    "fileName": "overlay,trap,snakes2",
+    "north": false,
+    "east": false,
+    "south": false,
+    "west": false,
+    "class": "snakePit",
+    "others": "overlay,trap,snakes"
+  },
+  "overlay,chests" : {
+    "fileName": "overlay,chests",
+    "north": false,
+    "east": false,
+    "south": false,
+    "west": false,
+    "class": "chests1",
+    "others": "overlay,chests"
+  },
+  "overlay,passage" : {
+    "fileName": "overlay,passage",
+    "north": false,
+    "east": false,
+    "south": false,
+    "west": false,
+    "class": "passage",
+    "others": "overlay,passage"
+  },
+  "overlay,corner,statue" : {
+    "fileName": "overlay,corner,statue",
+    "north": false,
+    "east": false,
+    "south": false,
+    "west": false,
+    "class": "cornerStatue",
+    "others": "overlay,corner,statue"
+  }
+}]

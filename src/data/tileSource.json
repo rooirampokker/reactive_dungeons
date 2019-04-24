@@ -1,4 +1,4 @@
-{
+[{
   "bottom,start": {
     "fileName": "bottom,start",
     "north": false,
@@ -7,15 +7,15 @@
     "west": false,
     "others": "start",
     "map": {
-      "5,3": "south,west,sw", //exit - right
-      "5,2": "north,east,south,se", //Exit - left
-      "4,4": "north,west,nw", //right corner
-      "3,4": "south,west,sw,nw", //right wall
-      "2,3": "south,se", //jetty - tip
-      "3,3": "north,east,south,sw", //jetty - middle
-      "4,3": "north,east,west,ne", //jetty - bottom
-      "4,2": "east,south,west,ne", //doorway
-      "4,1": "east",//corner
+      "5,3": "south,west,sw",
+      "5,2": "north,east,south,se",
+      "4,4": "north,west,nw",
+      "3,4": "south,west,sw,nw",
+      "2,3": "south,se",
+      "3,3": "north,east,south,sw",
+      "4,3": "north,east,west,ne",
+      "4,2": "east,south,west,ne",
+      "4,1": "east"
     }
   },
   "bottom,empty": {
@@ -43,7 +43,7 @@
       "4,3": "north,east,south,west",
       "4,4": "north,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,hall": {
@@ -89,7 +89,7 @@
       "5,2": "north,east,south,west",
       "5,3": "north,east,south,west",
       "5,4": "east,west",
-      "5,5": "north,west",
+      "5,5": "north,west"
     }
   },
   "bottom,deadend": {
@@ -109,7 +109,7 @@
       "4,2": "north,east,south,ne,se",
       "4,3": "north,south,west,sw,nw",
       "5,2": "north,east,south,ne,se",
-      "5,3": "north,south,west,sw,nw",
+      "5,3": "north,south,west,sw,nw"
     }
   },
   "bottom,room": {
@@ -166,7 +166,7 @@
       "5,2": "north,east,south,ne,se,sw,nw",
       "5,3": "north,south,west,ne,se,sw,nw",
       "5,4": "north,east,ne,nw",
-      "5,5": "north,west,nw",
+      "5,5": "north,west,nw"
     }
   },
   "bottom,altar": {
@@ -186,7 +186,7 @@
       "3,3": "north,south,west,se,sw,nw",
       "3,2": "north,east,south,ne,se,sw",
       "2,2": "east,south,se",
-      "2,3": "south,west,sw",
+      "2,3": "south,west,sw"
     }
   },
   "bottom,right,crooked,passage1": {
@@ -242,7 +242,7 @@
       "4,3": "north,east,south,west",
       "4,4": "north,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,stairs": {
@@ -267,7 +267,7 @@
       "4,3": "north,east,south,west",
       "4,4": "north,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,stairs1": {
@@ -292,7 +292,7 @@
       "4,2": "east,west",
       "4,3": "south,west",
       "5,2": "east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,tower,stairs": {
@@ -359,7 +359,7 @@
       "4,3": "north,east,south,west,ne,sw,nw",
       "4,4": "north,west,ne,se,sw,nw",
       "5,2": "north,east,south,ne,se",
-      "5,3": "north,south,west,ne,sw,nw",
+      "5,3": "north,south,west,ne,sw,nw"
     }
   },
   "bottom,right,passage": {
@@ -381,7 +381,7 @@
       "4,2": "north,east,south",
       "4,3": "north,south,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,passage1": {
@@ -429,7 +429,7 @@
       "4,2": "north,east,south",
       "4,3": "north,south,west",
       "5,2": "dd,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,passage3": {
@@ -459,7 +459,7 @@
       "4,3": "north,east,south,west",
       "4,4": "north,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,passage4": {
@@ -489,7 +489,7 @@
       "4,3": "north,east,south,west",
       "4,4": "north,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,passage5": {
@@ -514,7 +514,7 @@
       "4,2": "east,west",
       "4,3": "south,west",
       "5,2": "east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,ornate": {
@@ -536,7 +536,7 @@
       "4,2": "north,east,south",
       "4,3": "north,south,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,top,left,crossroad": {
@@ -566,7 +566,7 @@
       "4,2": "north,east,south",
       "4,3": "north,south,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,top,left,crossroad1": {
@@ -577,8 +577,8 @@
     "west": true,
     "others": "crossroad",
     "map": {
-      "0,2": "north,east,south,ne,se,nw",//"north,east,ne",
-      "0,3": "north,south,west,ne,sw", //"north,west,nw",
+      "0,2": "north,east,south,ne,se,nw",
+      "0,3": "north,south,west,ne,sw",
       "1,1": "east,south,ne,sw",
       "1,2": "north,east,west,ne,sw",
       "1,3": "north,east,west,se,nw",
@@ -592,7 +592,7 @@
       "3,4": "north,east,ne",
       "3,5": "north,east,west,ne,nw",
       "5,2": "east,south,se",
-      "5,3": "south,west,sw",
+      "5,3": "south,west,sw"
     }
   },
   "bottom,right,top,left,crossroad5": {
@@ -633,7 +633,7 @@
       "4,3": "east,south,ne,sw",
       "4,4": "north,west,ne,sw",
       "5,2": "north,east,south,ne,se,nw",
-      "5,3": "north,south,west,ne,sw,nw",
+      "5,3": "north,south,west,ne,sw,nw"
     }
   },
   "bottom,right,top,left,statue,crossroad": {
@@ -663,7 +663,7 @@
       "4,3": "east,south,west",
       "4,4": "north,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,top,left,crooked,crossroad2": {
@@ -691,7 +691,7 @@
       "4,2": "north,east,south",
       "4,3": "south,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,top,left,deadend,crossroad": {
@@ -820,7 +820,7 @@
       "4,2": "north,east,south,ne,se,nw",
       "4,3": "north,south,west,sw,nw",
       "5,2": "north,east,south,ne,se",
-      "5,3": "north,south,west,sw,nw",
+      "5,3": "north,south,west,sw,nw"
     }
   },
   "bottom,right,top,left,stairs": {
@@ -885,7 +885,7 @@
       "4,3": "north,east,south,west",
       "4,4": "north,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,top,left,crooked,crossroad6": {
@@ -1027,7 +1027,7 @@
       "4,3": "north,east,south,west",
       "4,4": "north,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,top,stairs": {
@@ -1087,7 +1087,7 @@
       "4,3": "east,south,west",
       "4,4": "north,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,top,lava": {
@@ -1115,7 +1115,7 @@
       "4,3": "north,east,south,west",
       "4,4": "north,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,right,top,maze": {
@@ -1160,8 +1160,8 @@
     "west": false,
     "others": "room",
     "map": {
-      "0,2": "north,east,south", //exit - right
-      "0,3": "north,south,west", //Exit - left
+      "0,2": "north,east,south",
+      "0,3": "north,south,west",
       "1,0": "east,south",
       "1,1": "east,south,west",
       "1,2": "north,east,south,west",
@@ -1222,7 +1222,7 @@
       "4,3": "north,east,south,west,ne,sw,nw",
       "4,4": "north,west,ne,sw,nw",
       "5,2": "north,east,south,ne,se,nw",
-      "5,3": "north,south,west,ne,sw,nw",
+      "5,3": "north,south,west,ne,sw,nw"
     }
   },
   "bottom,right,left,passage": {
@@ -1339,15 +1339,17 @@
       "5,3": "north,south,west"
     }
   },
-  /*    "bottom,right,left,lava": {
-          "fileName": "bottom,right,left,lava",
-          "north": false,
-          "east": true,
-          "south": true,
-          "west": true,
-          "others": "lava"
-      },
-  */
+  "bottom,right,left,lava": {
+      "fileName": "bottom,right,left,lava",
+      "north": false,
+      "east": true,
+      "south": true,
+      "west": true,
+      "others": "lava",
+      "map": {
+
+      }
+  },
   "bottom,right,left,maze": {
     "fileName": "bottom,right,left,maze",
     "north": false,
@@ -1379,7 +1381,7 @@
       "4,2": "north,south",
       "4,3": "north,south",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
 
@@ -1500,7 +1502,7 @@
       "4,2": "north,east,south",
       "4,3": "north,south,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,top,items": {
@@ -1536,7 +1538,7 @@
       "4,4": "east,west",
       "4,5": "north,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,top,pool": {
@@ -1558,7 +1560,7 @@
       "4,2": "north,east,south",
       "4,3": "north,south,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,top,pit": {
@@ -1596,7 +1598,7 @@
       "0,2": "north,east,ne",
       "0,3": "north,west,nw",
       "5,2": "south,east,se",
-      "5,3": "south,west,sw",
+      "5,3": "south,west,sw"
     }
   },
   "bottom,top,pit3": {
@@ -1610,7 +1612,7 @@
       "0,2": "north,east,ne",
       "0,3": "north,west,nw",
       "5,2": "east,south,se",
-      "5,3": "south,west,sw",
+      "5,3": "south,west,sw"
     }
   },
 
@@ -1633,7 +1635,7 @@
       "4,2": "north,east,south",
       "4,3": "north,south,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,top,empty": {
@@ -1690,7 +1692,7 @@
       "4,2": "north,east,south",
       "4,3": "north,south,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "bottom,top,passage2": {
@@ -1750,7 +1752,7 @@
       "4,2": "north,east,south",
       "4,3": "north,south,west",
       "5,2": "north,east,south",
-      "5,3": "north,south,west",
+      "5,3": "north,south,west"
     }
   },
   "right,coffins": {
@@ -1785,7 +1787,7 @@
       "2,5": "east,south,west",
       "3,3": "north,east",
       "3,4": "north,east,west",
-      "3,5": "north,east,west",
+      "3,5": "north,east,west"
     }
   },
   "right,room1": {
@@ -1805,7 +1807,7 @@
       "3,4": "north,east,sw",
       "3,5": "north,east,west,ne,nw",
       "4,2": "east,nw",
-      "4,3": "west,ne",
+      "4,3": "west,ne"
     }
   },
   "right,room2": {
@@ -1836,7 +1838,7 @@
       "3,2": "north,east,west,ne,nw",
       "3,3": "north,east,west,ne,nw",
       "3,4": "north,east,west,ne,nw",
-      "3,5": "north,east,west,ne,nw",
+      "3,5": "north,east,west,ne,nw"
     }
   },
   "right,altar": {
@@ -1869,7 +1871,7 @@
       "2,4": "east,south,west",
       "3,4": "north,east,west",
       "2,5": "east,south,west",
-      "3,5": "north,east,west",
+      "3,5": "north,east,west"
     }
   },
   "right,left,trap3": {
@@ -1891,7 +1893,7 @@
       "2,4": "east,south,west",
       "3,4": "north,east,west",
       "2,5": "east,south,west",
-      "3,5": "north,east,west",
+      "3,5": "north,east,west"
     }
   },
   "right,left,pool": {
@@ -1913,7 +1915,7 @@
       "2,4": "east,south,west",
       "3,4": "north,east,west",
       "2,5": "east,south,west",
-      "3,5": "north,east,west",
+      "3,5": "north,east,west"
     }
   },
   "right,left,pit1": {
@@ -1927,7 +1929,7 @@
       "2,0": "south,west,sw",
       "2,5": "east,south,se",
       "3,0": "north,west,nw",
-      "3,5": "north,east,ne",
+      "3,5": "north,east,ne"
     }
   },
   "right,left,pit2": {
@@ -1999,7 +2001,7 @@
       "2,4": "east,south,west",
       "3,4": "north,east,west",
       "2,5": "east,south,west",
-      "3,5": "north,east,west",
+      "3,5": "north,east,west"
     }
   },
   "right,left,passage1": {
@@ -2021,7 +2023,7 @@
       "2,4": "east,south,west",
       "3,4": "north,east,west",
       "2,5": "east,south,west",
-      "3,5": "north,east,west",
+      "3,5": "north,east,west"
     }
   },
   "right,left,passage2": {
@@ -2048,7 +2050,7 @@
       "3,4": "north,east,west,ne,sw,nw",
       "3,5": "north,east,west,ne,nw",
       "4,2": "north,east,ne,nw",
-      "4,3": "north,west,ne,nw",
+      "4,3": "north,west,ne,nw"
     }
   },
   "right,left,passage3": {
@@ -2093,7 +2095,7 @@
       "2,4": "east,south,west",
       "3,4": "north,east,west",
       "2,5": "east,south,west",
-      "3,5": "north,east,west",
+      "3,5": "north,east,west"
     }
   },
   "right,left,crooked,passage3": {
@@ -2116,7 +2118,7 @@
       "3,2": "east,west,ne,se,sw,nw",
       "3,3": "north,south,west,ne",
       "4,1": "north,ne,nw",
-      "4,3": "north,nw",
+      "4,3": "north,nw"
     }
   },
   "filler": {
@@ -2183,7 +2185,7 @@
       "3,2": "north,east,south,west,ne,se,sw,nw",
       "3,3": "north,east,south,west,ne,se,sw,nw",
       "3,4": "north,east,south,west,ne,sw,nw",
-      "3,0": "north,east,west,ne,sw,nw",
+      "3,0": "north,east,west,ne,sw,nw"
     }
   },
   "bottom,right,corner,bigroom": {
@@ -2261,7 +2263,7 @@
     "others": "center,bigroom,lava",
     "map": {
       "2,4": "east",
-      "2,5": "east,west,ne,sw",
+      "2,5": "east,west,ne,sw"
     }
   },
   "center,bigroom,magic": {
@@ -2318,7 +2320,7 @@
       "5,2": "north,east,south,west,ne,se,sw,nw",
       "5,3": "north,east,south,west,ne,se,sw,nw",
       "5,4": "north,east,south,west,ne,se,sw,nw",
-      "5,5": "north,east,south,west,ne,se,sw,nw",
+      "5,5": "north,east,south,west,ne,se,sw,nw"
     }
   },
   "center,bigroom, dias": {
@@ -2355,7 +2357,7 @@
       "3,2": "north,east,ne",
       "3,3": "north,east,west,ne,nw",
       "3,4": "north,east,west,ne,nw",
-      "3,5": "north,east,west,ne,nw",
+      "3,5": "north,east,west,ne,nw"
     }
   },
   "right,top,left,corner,bigroom,open": {
@@ -2406,7 +2408,7 @@
       "5,0": "north,east,south,west,ne,se,sw,nw",
       "5,1": "north,east,south,west,ne,se,sw,nw",
       "5,2": "north,east,south,west,ne,se,sw,nw",
-      "5,3": "north,south,west,ne,sw,nw",
+      "5,3": "north,south,west,ne,sw,nw"
     }
   },
   "top,entrance,bigroom": {
@@ -2446,7 +2448,7 @@
       "5,2": "north,east,south,west,ne,se,sw,nw",
       "5,3": "north,east,south,west,ne,se,sw,nw",
       "5,4": "north,east,south,west,ne,se,sw,nw",
-      "5,5": "north,east,south,west,ne,se,sw,nw",
+      "5,5": "north,east,south,west,ne,se,sw,nw"
     }
   },
   "top,entrance,bigroom,ornate": {
@@ -2486,7 +2488,7 @@
       "5,2": "north,east,south,west,ne,se,sw,nw",
       "5,3": "north,east,south,west,ne,se,sw,nw",
       "5,4": "north,east,south,west,ne,se,sw,nw",
-      "5,5": "north,east,south,west,ne,se,sw,nw",
+      "5,5": "north,east,south,west,ne,se,sw,nw"
     }
   },
   "left,entrance,bigroom,ornate": {
@@ -2545,7 +2547,7 @@
       "3,0": "north,east,west,ne,nw",
       "3,1": "north,east,west,ne,nw",
       "3,2": "north,east,west,ne,nw",
-      "3,3": "north,west,nw",
+      "3,3": "north,west,nw"
     }
   },
   "overlay,chests" : {
@@ -2559,52 +2561,6 @@
 
     }
   }
-}
+}]
 
-overlayTiles = {
-  "overlay,trap,snakes" : {
-    "fileName": "overlay,trap,snakes",
-    "north": false,
-    "east": false,
-    "south": false,
-    "west": false,
-    "class": "snakePit",
-    "others": "overlay,trap,snakes"
-  },
-  "overlay,trap,snakes2" : {
-    "fileName": "overlay,trap,snakes2",
-    "north": false,
-    "east": false,
-    "south": false,
-    "west": false,
-    "class": "snakePit",
-    "others": "overlay,trap,snakes"
-  },
-  "overlay,chests" : {
-    "fileName": "overlay,chests",
-    "north": false,
-    "east": false,
-    "south": false,
-    "west": false,
-    "class": "chests1",
-    "others": "overlay,chests"
-  },
-  "overlay,passage" : {
-    "fileName": "overlay,passage",
-    "north": false,
-    "east": false,
-    "south": false,
-    "west": false,
-    "class": "passage",
-    "others": "overlay,passage"
-  },
-  "overlay,corner,statue" : {
-    "fileName": "overlay,corner,statue",
-    "north": false,
-    "east": false,
-    "south": false,
-    "west": false,
-    "class": "cornerStatue",
-    "others": "overlay,corner,statue"
-  }
-}
+
