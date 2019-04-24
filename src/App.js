@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import FormContainer        from './containers/Form';
+import Dungeon              from './containers/Dungeon'
 import QuickCard            from './components/QuickCard';
 
 class App extends Component {
   /*
   *
   */
+
   render() {
     return (
         <div className="container">
@@ -13,8 +14,9 @@ class App extends Component {
                 title   = 'Enter your dungeon dimensions'
                 content = <FormContainer />
             />
-
-
+            <div>
+                <Dungeon></Dungeon>
+            </div>
         </div>
     );
   }
